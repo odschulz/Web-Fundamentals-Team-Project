@@ -22,8 +22,8 @@ output, progress, section, summary, time, video {
 }
 
 @font-face {
-    font-family: Adelon;
-    src: url(Fonts/Adelon-Medium.ttf);
+    font-family: Ubuntu;
+    src: url("Fonts/Ubuntu-M.ttf");
 }
 
 article, aside, dialog, figure, footer, header, nav, section, blockquote {
@@ -31,7 +31,8 @@ article, aside, dialog, figure, footer, header, nav, section, blockquote {
 }
 
 body {
-    font-family: tahoma, verdana, arial, sans-serif;
+    /*font-family: tahoma, verdana, arial, sans-serif;*/
+    font-family: Ubuntu, sans-serif;
     font-size: 14px;
     background: url("Images/Backgrounds/circuitboard1.png");
     background-attachment: fixed;
@@ -45,7 +46,7 @@ body {
 /***********************HEADER*********************************/
 
 #headerContainer {
-    background: rgba(255, 255, 255, 0.2);
+    background: rgba(0, 0, 0, 0.3);
     border-left: 3px solid white;
     border-right: 3px solid white;
     border-top: 3px solid white;
@@ -101,15 +102,15 @@ body {
             color: white;
             font-size: 1em;
             text-transform: uppercase;
-            font-family: Adelon;
             text-decoration: none;
         }
 
+
         #headerMenu > ul > li:hover {
-            background-color: #3a3a3a;
+            /*background-color: white;*/
             /*border-right: 1px solid #516A98;*/
             /*border-bottom: 1px solid #516A98;*/
-            color: white;
+            color: black;
             cursor: pointer;
             transition: all .5s ease;
             /*text-decoration: underline;*/
@@ -141,7 +142,7 @@ body {
             margin: 0px 40px 15px 0px;
         }
 
-            #welcome {
+            .sectionMain {
                 float: left;
                 margin: 0px 0px 15px 0px;
                 padding: 12px 19px 12px 19px;
@@ -149,7 +150,7 @@ body {
                 border-radius: 10px;
             }
 
-                #welcome article > h1 {
+                #aboutUs article > h1 {
                     margin: 5px 0px 17px 0px;
                     color: #516A98;
                     text-transform: uppercase;
@@ -157,22 +158,14 @@ body {
                     text-align: center;
                 }
 
-                #welcome article > a {
+                #aboutUs article > a {
                     display: inline-block;
                     margin: 10px 0px 0px 0px;
                     color: #516A98;
                     font-size: 1em;
                 }
 
-            #presentation {
-                float: left;
-                margin: 0px 0px 15px 0px;
-                padding: 12px 19px 12px 19px;
-                border: 1px solid #DBDBDB;
-                border-radius: 10px;
-            }
-
-                #presentation div h2 {
+                #presentation article h2 {
                     margin: 5px 0px 17px 0px;
                     color: #516A98;
                     font-size: 1.5em;
@@ -260,7 +253,7 @@ body {
 
 #footerWrapper {
     height: 100px;
-    background: rgba(255, 255, 255, 0.2);
+    background: rgba(0, 0, 0, 0.3);
     box-sizing: border-box;
     border-left: 3px solid white;
     border-right: 3px solid white;
