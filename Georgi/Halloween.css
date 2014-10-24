@@ -1,0 +1,105 @@
+
+#halloween{
+
+    font-family: nosifer;
+    color: red;
+font-size: 10em;
+    text-align: center;
+}
+#next{
+    display: inline-block;
+    color: red;
+    font-family: nosifer;
+    float: right;
+    font-size: 7.5em;
+    margin-top: 10%;
+}
+@media only screen and (max-width: 1400px) {
+    #halloween{
+        font-size: 6.5em;
+
+    }
+    .left-content{
+        font-size: 2em;
+    }
+
+    #next, .navigation {
+        font-size: 3em;
+    }
+}
+@media only screen and (max-width: 1024px){
+    #halloween {
+        font-size: 4em;
+
+    }
+    .left-content {
+        font-size: 2em;
+
+    }
+    #next, .navigation{
+        font-size: 2em;
+    }
+}
+@media only screen and (max-width: 700px){
+    #halloween, .left-content{
+        font-size: 2em;
+
+    }
+    .left-content {
+        font-size: 1em;
+
+    }
+    #next, .navigation{
+        font-size: 1em;
+    }
+}
+
+.picture{
+    margin-top: 3%;
+    width: 40%;
+    margin-left:auto;
+    margin-right: auto;
+
+
+}
+
+.picture>img{
+    width: 100%;
+
+}
+.next-transport{
+    display: inline-block;
+    color: red;
+    font-family: nosifer;
+    float: right;
+    padding-right: 12%;
+    margin-top: -30%;
+}
+#transport-prev{
+    margin-top: -20%;
+    padding-right: 2%;
+}
+.new-line{
+    visibility: hidden;
+}
+.left-content{
+    float: left;
+    color: red;
+    font-family: nosifer;
+    display: inline-block;
+    margin-top: -30%;
+    width: 25%;
+    margin-left: 4%;
+}
+#welcome-witches{
+    width: 48%;
+}
+#menu-witches{
+    margin-left: 5%;
+}
+#content-dracula{
+    width: 20%;
+}
+#angel{
+    width: 45%;
+}
