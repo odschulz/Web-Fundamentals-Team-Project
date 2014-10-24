@@ -150,19 +150,12 @@ body {
                 border-radius: 10px;
             }
 
-                #aboutUs article > h1 {
+                .sectionMain article > h1 {
                     margin: 5px 0px 17px 0px;
                     color: #516A98;
                     text-transform: uppercase;
                     font-size: 2em;
                     text-align: center;
-                }
-
-                #aboutUs article > a {
-                    display: inline-block;
-                    margin: 10px 0px 0px 0px;
-                    color: #516A98;
-                    font-size: 1em;
                 }
 
                 #presentation article h2 {
@@ -250,6 +243,8 @@ body {
 
 
 /************************FOOTER********************************/
+
+
 
 #footerWrapper {
     height: 100px;
