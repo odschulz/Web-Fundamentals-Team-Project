@@ -92,8 +92,9 @@ body {
             flex-wrap: wrap;
             padding:5px 15px 5px 15px;
             background: transparent;
-            border-radius: 0px 0px 10px 0px;
+            /*border-radius: 0px 0px 10px 0px;*/
             margin: 0 auto;
+            border: 1px solid transparent;
         }
 
         #headerMenu > ul > li a {
@@ -105,13 +106,14 @@ body {
         }
 
         #headerMenu > ul > li:hover {
-            /*background-color: #516A98;*/
+            background-color: #3a3a3a;
             /*border-right: 1px solid #516A98;*/
             /*border-bottom: 1px solid #516A98;*/
             color: white;
             cursor: pointer;
             transition: all .5s ease;
-            text-decoration: underline;
+            /*text-decoration: underline;*/
+            border: 1px solid white;
         }
 
 /**************************MAIN******************************/
