@@ -1,0 +1,11 @@
+#anecdotes{
+    width: 65%;
+
+    margin-left: 5%;
+}
+p{
+    background-color: lightblue;
+    margin-top: 2%;
+    padding: 2%;
+    border-radius: 15px;
+}
