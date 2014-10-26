@@ -18,8 +18,11 @@
         <![endif]-->
 
 
+
+
 	</head>
 <body>
+
 <div class="container">
     <div class="row">
         <header>
@@ -76,8 +79,10 @@
 
 <!--*****************************************MAIN RIGHT************************************************-->
 
-            <div id="rightSideContainer" class="col-lg-3 col-md-4 col-sm-6 col-xs-7 text-center" >
-                <aside id="geekButtonSection">
+            <div class="col-xs-3"></div>
+
+            <div id="rightSideContainer" class="col-lg-3 col-md-4 col-sm-6 col-xs-6 text-center">
+                <aside id="geekButtonSection" class="affix">
                     <h1>alabala</h1>
                     <ul>
                         <li><a href="about.html#whySection">Why</a></li>
@@ -87,7 +92,8 @@
                     <a href="https://softuni.bg/apply" id="geekButton">Geek Yourself</a>
                 </aside>
             </div>
-            <div class="col-lg-1"></div>
+
+            <div class="col-lg-1 col-xs-3"></div>
 
         </div>
 <!--******************************************FOOTER**************************************************-->
@@ -95,7 +101,16 @@
         <footer>
             <div id="footerWrapper">
                 <div id="footerContainer">
-                    <div id="footerContent">HTML Validator CSS Validator SoftUni</div>
+                    <div id="footerContent">
+                        <p>
+                            <a href="http://jigsaw.w3.org/css-validator/check/referer">
+                                <img id="cssValidator"
+                                     src="http://jigsaw.w3.org/css-validator/images/vcss-blue"
+                                     alt="Valid CSS!" />
+                            </a>
+                        </p>
+                        <p>SoftUni</p>
+                    </div>
                 </div>
             </div>
         </footer>

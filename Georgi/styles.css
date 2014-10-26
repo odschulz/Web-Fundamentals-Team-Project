@@ -160,17 +160,26 @@ img {
     #rightSideContainer {
         overflow: hidden;
         margin: 0 auto;
+        position: relative;
     }
 
     #geekButtonSection {
         box-sizing: border-box;
-        width: 100%;
-        margin: 0px 0px 15px 0px;
+        /*width: 100%;*/
+        margin: 0px 0px 85px 0px;
         padding: 12px 19px;
         border: 1px solid #DBDBDB;
         border-radius: 10px;
         background-color: #EEEEEE;
         overflow: hidden;
+
+
+    }
+
+    @media (max-width: 990px) {
+        .affix {
+            position: relative !important;
+        }
     }
 
         #geekButtonSection > h1 {
@@ -206,23 +215,12 @@ img {
             padding: 0.8em;
         }
 
-
-        #geekButton:hover {
-            outline: none;
-            border: none;
-
-        }
-
         #geekButton:active {
             outline: none;
             border: none;
         }
 
 
-
-.col-xs-7 {
-    float: inherit !important;
-}
 
 /************************FOOTER********************************/
 
@@ -248,5 +246,11 @@ img {
 #footerContent {
     font-size: 1em;
     color: #ffffff;
+}
+
+#cssValidator {
+    border: 0;
+    width: 88px;
+    height: 31px
 }
 
