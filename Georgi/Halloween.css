@@ -1,3 +1,10 @@
+body {
+    background-image: url(Images/HalloweenParty/dark-halloween-horror-house-wallpaper.jpg) !important;
+}
+
+#mainContainer {
+    background-color: transparent !important;
+}
 
 #halloween{
 
