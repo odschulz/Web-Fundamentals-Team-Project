@@ -254,10 +254,41 @@ img {
     font-size: 1em;
     color: #ffffff;
 }
+.funzone{
+    display: inline-block;
+    width: 28%;
+    float:left;
+    margin: 2%;
+    min-width: 200px;
 
+<<<<<<< .mine
+}
+.funzone>img{
+    width: 100%;
+
+
+
+}
+#fun{
+
+
+}
+#nerdvsgeek{
+
+width: 100%;
+}
+
+#cssValidator {
+=======
 .validator {
+>>>>>>> .r31
     border: 0;
     width: 88px;
     height: 31px
+}
+
+.funzone-label{
+    font-size: 2em;
+    color: darkblue;
 }
 
