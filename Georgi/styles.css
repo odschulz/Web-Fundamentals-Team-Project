@@ -166,17 +166,19 @@ img {
         box-sizing: border-box;
         width: 100%;
         margin: 0px 0px 15px 0px;
-        padding: 12px 19px 12px 19px;
+        padding: 12px 19px;
         border: 1px solid #DBDBDB;
         border-radius: 10px;
         background-color: #EEEEEE;
+        overflow: hidden;
     }
 
         #geekButtonSection > h1 {
-            margin: 5px 0px 17px 0px;
+            margin: 5px 0px 15px 0px;
             color: #516A98;
             text-transform: uppercase;
-            font-size: 24px;
+            font-size: 2.2em;
+            vertical-align: middle;
         }
 
         #geekButtonSection > ul > li {
@@ -190,18 +192,18 @@ img {
         #geekButton {
             display: inline-block;
             width: 100%;
-            height: 70px;
             background: linear-gradient(#880b0d, red);
             font-family: Deco;
             color: white !important;
-            font-size: 1.9em;
+            font-size: 2em;
             border-radius: 10px;
             margin: 10px 0px 0px 0px;
             box-sizing: border-box;
             text-decoration: none;
             border: 2px solid white;
-            line-height: 2.4em;
+            /*line-height: 2.4em;*/
             text-align: center;
+            padding: 0.8em;
         }
 
 
