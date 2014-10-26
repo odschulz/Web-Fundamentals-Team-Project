@@ -260,13 +260,9 @@ img {
     float:left;
     margin: 2%;
     min-width: 200px;
-
-<<<<<<< .mine
 }
 .funzone>img{
     width: 100%;
-
-
 
 }
 #fun{
@@ -278,10 +274,9 @@ img {
 width: 100%;
 }
 
-#cssValidator {
-=======
+
 .validator {
->>>>>>> .r31
+
     border: 0;
     width: 88px;
     height: 31px
