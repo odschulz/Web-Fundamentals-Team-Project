@@ -41,6 +41,10 @@ img {
     vertical-align: inherit !important;
 }
 
+@media only screen and (min-width: 1024px) {
+    body { font-size: 14px !important;}
+}
+
 @media only screen and (max-width: 1024px) {
     body { font-size: 14px !important;}
 }
@@ -230,7 +234,7 @@ img {
 
 
 #footerWrapper {
-    height: 100px;
+    height: 120px;
     background-color: #093933;
     box-sizing: border-box;
     padding-top: 1px;
@@ -247,7 +251,86 @@ img {
         #footerContent {
             font-size: 1em;
             color: #ffffff;
+            overflow: hidden;
         }
+
+            #footerLinks {
+                padding: 10px 0px 0px 20px;
+            }
+
+                #footerLinks h3 {
+                    margin: 0px 0px 5px 0px;
+                    font-size: 1.5em;
+                }
+
+                #footerLinks > ul {
+                    margin: 0px 0px 5px 0px;
+                }
+
+                #footerLinks > ul > li {
+                    display: inline-block;
+                    /*float: left;*/
+                }
+
+                #softuniLink {
+                    display: inline-block;
+                    background: url("../Images/Logos/softuni-sprite.png") no-repeat center 4px;
+                    width: 32px;
+                    height: 25px;
+                    margin: 0px 8px 0px 0px;
+                }
+
+                #softuniLink:hover {
+                    background-position: center -25px;
+                }
+
+                #youtubeLink {
+                    display: inline-block;
+                    background: url("../Images/Logos/youtube-sprite.png") no-repeat center 0;
+                    width: 32px;
+                    height: 25px;
+                    margin: 0px 8px 0px 0px;
+                }
+
+                #youtubeLink:hover {
+                    background-position: center -26px;
+                }
+
+                #facebookLink {
+                    display: inline-block;
+                    background: url("../Images/Logos/facebook-sprite.png") no-repeat center 0px;
+                    width: 32px;
+                    height: 30px;
+                    margin: 0px 8px 0px 0px;
+                }
+
+                #facebookLink:hover {
+                    background-position: center -30px;
+                }
+
+                .validators {
+                    border: 0;
+                    width: 60px;
+                    height: 20px
+                }
+
+            #disclaimer {
+                font-size: 1em;
+                color: #ffffff;
+                padding: 10px 0px 0px 0px;
+            }
+
+            @media only screen and (min-width: 1024px) {
+                #disclaimer { padding: 10px 0px 0px 0px;}
+            }
+
+            @media only screen and (max-width: 1024px) {
+                #disclaimer { padding: 10px 0px 0px 0px;}
+            }
+
+            @media only screen and (max-width: 991px) {
+                #disclaimer { padding: 10px 15px 0px 0px;}
+            }
 /*********************************GALLERY******************************************/
 
 #halloweenTitle {
@@ -260,41 +343,8 @@ img {
 
 /*************************************GALLERY***********************************************/
 
-.funzone{
-    display: inline-block;
-    width: 28%;
-    float:left;
-    margin: 2%;
-    min-width: 200px;
-}
 
-.funzone>img{
-    width: 100%;
-
-}
-
-#fun{
-
-
-}
-
-#nerdvsgeek{
-
-width: 100%;
-}
-
-
-.validator {
-
-    border: 0;
-    width: 88px;
-    height: 31px
-}
-
-.funzone-label{
-    font-size: 2em;
-    color: darkblue;
-}
+/*********Jokes**Section**************************************************************************/
 
 .section-padding{
    padding: 5%;
