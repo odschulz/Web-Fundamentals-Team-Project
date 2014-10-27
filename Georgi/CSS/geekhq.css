@@ -2,9 +2,7 @@ body{
     background-color: black !important;
 }
 
-#mapSection {
 
-}
 
 #mapSection h1{
     color: #093933;
@@ -15,6 +13,7 @@ body{
     margin: 0;
     text-align: center;
     font-size: 60px;
+    text-transform: capitalize;
 }
 #mapSection img {
     width: 100%;
@@ -25,8 +24,19 @@ body{
 #mapSection b{
     color: red;
     position: absolute;
-    font-size: 3em;
+    font-size: 40px;
     text-shadow: 4px 4px #008;
+}
+
+#softuni h1 {
+    color: #093933;
+    background-color:transparent;
+    font-style: italic;
+    text-shadow: 4px 4px white;
+    padding-right: 15px;
+    margin: 0;
+    text-align: center;
+    font-size: 60px;
 }
 
 
@@ -35,4 +45,11 @@ body{
 }
 @media only screen and (max-width: 480px) {
     #mapSection h1 { font-size: 25px !important; }
+}
+
+@media only screen and (max-width: 960px) {
+    #mapSection b { font-size: 30px !important;}
+}
+@media only screen and (max-width: 480px) {
+    #mapSection b { font-size: 20px !important; }
 }
