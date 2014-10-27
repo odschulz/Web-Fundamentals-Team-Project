@@ -109,12 +109,13 @@ img {
 
         #headerMenu > ul > li:hover {
             transition: all .5s ease;
-            border-left: 1px solid #093933;
-            border-right: 1px solid #093933;
+            border-left: 1px solid #FF2020;
+            border-right: 1px solid #FF2020;
         }
 
         #headerMenu > ul > li > a:hover {
             cursor: pointer;
+            color: #FF2020;
         }
 
 /**************************MAIN******************************/
@@ -236,17 +237,29 @@ img {
     clear: both;
 }
 
-#footerContainer {
-    height: 100%;
-    border-top: 1px solid #ffffff;
-    width: 100%;
-    overflow: hidden;
+    #footerContainer {
+        height: 100%;
+        border-top: 1px solid #ffffff;
+        width: 100%;
+        overflow: hidden;
+    }
+
+        #footerContent {
+            font-size: 1em;
+            color: #ffffff;
+        }
+/*********************************GALLERY******************************************/
+
+#halloweenTitle {
+   font-size: 2.3em;
+    text-align: center;
+    font-family: nosifer;
+    text-shadow: 0.2em 0.2em 0.2em gray;
+    color: darkred;
 }
 
-#footerContent {
-    font-size: 1em;
-    color: #ffffff;
-}
+/*************************************GALLERY***********************************************/
+
 .funzone{
     display: inline-block;
     width: 28%;
@@ -254,14 +267,17 @@ img {
     margin: 2%;
     min-width: 200px;
 }
+
 .funzone>img{
     width: 100%;
 
 }
+
 #fun{
 
 
 }
+
 #nerdvsgeek{
 
 width: 100%;
@@ -279,6 +295,7 @@ width: 100%;
     font-size: 2em;
     color: darkblue;
 }
+
 .section-padding{
    padding: 5%;
 }
