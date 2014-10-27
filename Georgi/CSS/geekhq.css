@@ -10,10 +10,10 @@ body{
     font-style: italic;
     text-shadow: 4px 4px white;
     padding-right: 15px;
-    margin: 0;
     text-align: center;
     font-size: 60px;
     text-transform: capitalize;
+    margin-bottom: 10px;
 }
 #mapSection img {
     width: 100%;
@@ -37,14 +37,20 @@ body{
     margin: 0;
     text-align: center;
     font-size: 60px;
+    margin-bottom: 10px;
+}
+
+#softuni img {
+    width: 80%;
+    max-width: 400px;
 }
 
 
 @media only screen and (max-width: 960px) {
-    #mapSection h1 { font-size: 40px !important;}
+    #mapSection h1, #softuni h1 { font-size: 40px !important;}
 }
 @media only screen and (max-width: 480px) {
-    #mapSection h1 { font-size: 25px !important; }
+    #mapSection h1, #softuni h1 { font-size: 25px !important; }
 }
 
 @media only screen and (max-width: 960px) {
