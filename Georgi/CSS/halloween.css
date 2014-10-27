@@ -6,7 +6,7 @@
 }
 
 body {
-    background: url(Images/HalloweenParty/dark-halloween-horror-house-wallpaper.jpg) no-repeat center center fixed !important;
+    background: url(../Images/HalloweenParty/dark-halloween-horror-house-wallpaper.jpg) no-repeat center center fixed !important;
     background-size: cover !important;
 
 }
@@ -98,7 +98,7 @@ body {
     width: 45%;
 }
 body {
-    background-image: url(images/halloweenparty/dark-halloween-horror-house-wallpaper.jpg)  !important;
+    background-image: url(../Images/HalloweenParty/dark-halloween-horror-house-wallpaper.jpg)  !important;
     
     background-size: cover;
 
