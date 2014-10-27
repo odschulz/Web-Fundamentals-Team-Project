@@ -5,17 +5,28 @@
     <link rel="stylesheet"href="test.css"/>
     <title></title>
 
+
 </head>
 <body>
 <header>
 <h1>Welcome to nerd World</h1>
+    <h2>and hail the Geektator!!!</h2>
+
     <b>Click on my head</b>
 
+<<<<<<< HEAD
     <img src="PSDictator.jpg" title="map" usemap="#map">
 </header>
 <div id="test">
 <map id="map">
     <area shape="rect" coords=840,80,904,176" title=" Svetlin Nakov" href="http://www.nakov.com "/>
+=======
+    <img src="PSDictator.jpg" usemap="#Map">
+</header>
+<div id="test">
+<map name="Map" id="Map">
+    <area shape="rect" coords="840,80,904,176" title=" Svetlin Nakov" href="http://www.nakov.com "/>
+>>>>>>> 353d4ff87bacd906280a0c414368cbad081baa55
     <area shape="rect" coords="623,165,718,267" title="Angel Georgiev" href="https://www.facebook.com/achebg"/>
     <area shape="rect" coords="396,142,508,255"   title="Dean Dachev" href="https://www.facebook.com/dean.dachev.1/media_set?set=a.1728446550377.69049.1814866198&type=3"/>
     <area shape="rect" coords="192,173,317,279" title="Юлия Тенинчева" href="https://www.facebook.com/heruelda/photos_stream"/>
@@ -24,7 +35,7 @@
 </map>
 
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-    <script src="MapResizer.js" type="text/javascript"></script>
+    <script src="imageMapResizer.min.js" type="text/javascript"></script>
     <script type="text/javascript">
         $('map').imageMapResize();
     </script>
