@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+	<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Geek HQ</title>
+
+        <link rel="stylesheet" type="text/css" href="CSS/styles.css"/>
+        <link rel="stylesheet"href="CSS/geekhq.css"/>
+
+        <!-- Bootstrap -->
+        <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+        <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+        <![endif]-->
+
+
+
+
+	</head>
+<body>
+<script src='http://use.edgefonts.net/nosifer.js'></script>
+<div class="container">
+    <div class="row">
+        <header>
+            <div id="headerContainer">
+                <div id="header">
+                    <a href="#">
+                        <img src="Images/Logos/rsz_finallogo.png" alt="Logo"/>
+                        <span>GEEK YOURSELF</span>
+                    </a>
+                </div>
+                <nav id="headerMenu">
+                    <ul class="list-inline list-unstyled">
+                        <li><a href="home.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="#">Geek HQ</a></li>
+                        <li><a href="#">Fun Zone</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+<!--***************************************MAIN**************************************************-->
+        <div id="mainContainer">
+
+            <div id="mapContainer" class="col-xs-12 center-block">
+                <section id="mapSection">
+                    <h1>Welcome to nerd World</h1>
+                    <b>Click on a head</b>
+                    <img src="ImageMap/PSDictator.jpg" usemap="#Map">
+
+                    <map name="Map" id="Map">
+                        <area shape="rect" coords="840,80,904,176" title=" Svetlin Nakov" href="http://www.nakov.com "/>
+                        <area shape="rect" coords="623,165,718,267" title="Angel Georgiev" href="https://www.facebook.com/achebg"/>
+                        <area shape="rect" coords="396,142,508,255"   title="Dean Dachev" href="https://www.facebook.com/dean.dachev.1/media_set?set=a.1728446550377.69049.1814866198&type=3"/>
+                        <area shape="rect" coords="192,173,317,279" title="Юлия Тенинчева" href="https://www.facebook.com/heruelda/photos_stream"/>
+                        <area shape="rect" coords="1001,113,1067,211" title="Vladimir Georgiev" href="https://www.facebook.com/VladiGeorgiev/photos"/>
+                        <area shape="rect" coords="1153,99,1247,221" title="Alexandra Alexandrova" href="https://www.facebook.com/alexandra.svilarova?fref=ts"/>
+                    </map>
+                </section>
+
+            </div>
+
+        </div>
+<!--******************************************FOOTER**************************************************-->
+
+        <footer>
+            <div id="footerWrapper">
+                <div id="footerContainer">
+                    <div id="footerContent">
+                        <a href="http://jigsaw.w3.org/css-validator/check/referer">
+                            <img class="validator"
+                                 src="Images/Validators/css.gif"
+                                 alt="Valid CSS!" />
+                        </a>
+                        <a href="#">
+                            <img class="validator"
+                                 src="Images/Validators/html5.png"
+                                 alt="Valid HTML5!" />
+                        </a>
+                        <p>SoftUni</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+</div>
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="bootstrap/js/bootstrap.min.js"></script>
+<script src="ImageMap/imageMapResizer.min.js" type="text/javascript"></script>
+<script type="text/javascript">
+    $('map').imageMapResize();
+</script>
+
+</body>
+</html>
