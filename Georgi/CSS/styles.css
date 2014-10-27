@@ -1,0 +1,291 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, i, center, dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, audio, canvas, details, figcaption,
+figure, footer, header, mark, menu, meter, nav,
+output, progress, section, summary, time, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    background: transparent;
+}
+
+@font-face {
+    font-family: Deco;
+    src: url(../Fonts/A770-Deco-Italic.ttf);
+}
+
+@font-face {
+    font-family: Ubuntu;
+    src: url("../Fonts/Ubuntu-M.ttf");
+}
+
+article, aside, dialog, figure, footer, header, nav, section, blockquote {
+    display: block;
+}
+
+body {
+    /*font-family: tahoma, verdana, arial, sans-serif;*/
+    font-family: Ubuntu, tahoma, sans-serif !important;
+    background: url("../Images/Backgrounds/circuit.png") fixed;
+}
+
+img {
+    vertical-align: inherit !important;
+}
+
+@media only screen and (max-width: 1024px) {
+    body { font-size: 14px !important;}
+}
+@media only screen and (max-width: 960px) {
+    body { font-size: 12px !important;}
+}
+@media only screen and (max-width: 480px) {
+    body { font-size: 8px !important; }
+}
+
+
+/***********************HEADER*********************************/
+
+#headerContainer {
+    background: #093933;
+    padding-bottom: 1px;
+}
+
+    #header {
+        /*width: 100%;*/
+        box-sizing: border-box;
+        border-bottom: 1px solid white;
+        padding: 10px 0px 10px 0px;
+        color: white;
+        /*font-size: 4.5em;*/
+        font-size: 62px !important;
+        font-family: Deco, arial, sans-serif;
+        text-align: center;
+        overflow: hidden;
+        line-height: 1;
+    }
+
+        #header > a  {
+            text-decoration: none;
+            color: white;
+        }
+/*************************HEADER MENU*******************************/
+#headerMenu {
+    overflow: hidden;
+    background-color: #F3FBFA;
+    display: block;
+    text-align: center;
+}
+
+    #headerMenu > ul {
+        overflow: hidden;
+        margin: 3px 0 3px;
+    }
+
+        #headerMenu > ul > li {
+            box-sizing: border-box;
+            list-style: none;
+            padding:0px 10px 0px 10px;
+            background: transparent;
+            margin: 0 auto;
+            border: 1px solid transparent;
+        }
+
+        #headerMenu > ul > li a {
+            color: #093933;
+            font-size: 1.1em;
+            text-transform: uppercase;
+            text-decoration: none;
+        }
+
+
+        #headerMenu > ul > li:hover {
+            transition: all .5s ease;
+            border-left: 1px solid #093933;
+            border-right: 1px solid #093933;
+        }
+
+        #headerMenu > ul > li > a:hover {
+            cursor: pointer;
+        }
+
+/**************************MAIN******************************/
+
+#mainContainer {
+    overflow: hidden;
+    padding: 10px 0px;
+    /*background-color: #B2C1BF;*/
+    background-color: rgba(178, 193, 191, 0.7);
+}
+
+/****************************LEFT SIDE****************************/
+
+    #leftSideContainer {
+        overflow: hidden;
+    }
+        .sectionLeft {
+            border: 1px solid white;
+            border-radius: 10px;
+            padding: 5px;
+            margin-bottom: 10px;
+            background-color: #F3FBFA;
+            color: #027365;
+        }
+
+        .sectionLeft h2 {
+            font-size: 2.2em;
+            color: #093933;
+        }
+
+        .sectionLeft a {
+            text-decoration: underline;
+            color: #29CFBB;
+        }
+
+        .sectionLeft a:hover {
+            color: #FF2020;
+        }
+
+            .presentationImages {
+                width: 100%;
+                max-width: 700px;
+                margin-bottom: 5px;
+            }
+
+
+/************************RIGHT SIDE********************************/
+
+    #rightSideContainer {
+        overflow: hidden;
+        margin: 0 auto;
+        position: relative;
+    }
+
+    #geekButtonSection {
+        box-sizing: border-box;
+        /*width: 100%;*/
+        margin: 0px 0px 85px 0px;
+        padding: 12px 19px;
+        border: 1px solid #DBDBDB;
+        border-radius: 10px;
+        background-color: #F3FBFA;
+        overflow: hidden;
+
+    }
+
+    @media (max-width: 990px) {
+        .affix {
+            position: relative !important;
+        }
+    }
+
+        #geekButtonSection > h1 {
+            margin: 5px 0px 15px 0px;
+            color: #093933;
+            text-transform: uppercase;
+            font-size: 2.2em;
+            vertical-align: middle;
+        }
+
+        #geekButtonSection > ul > li {
+            list-style: none;
+        }
+
+        #geekButtonSection > ul > li > a {
+            color: #29CFBB;
+        }
+
+        #geekButton {
+            display: inline-block;
+            width: 100%;
+            background: linear-gradient(#FF2020, #FE7979);
+            font-family: Deco;
+            color: white !important;
+            font-size: 2em;
+            border-radius: 10px;
+            margin: 10px 0px 0px 0px;
+            box-sizing: border-box;
+            text-decoration: none;
+            border: 2px solid white;
+            /*line-height: 2.4em;*/
+            text-align: center;
+            padding: 0.8em;
+        }
+
+        #geekButton:hover {
+            background: linear-gradient(#ff0052, #fe8476);
+        }
+
+        #geekButton:active {
+            outline: none;
+            border: none;
+        }
+
+
+
+/************************FOOTER********************************/
+
+
+
+#footerWrapper {
+    height: 100px;
+    background-color: #093933;
+    box-sizing: border-box;
+    padding-top: 1px;
+    clear: both;
+}
+
+#footerContainer {
+    height: 100%;
+    border-top: 1px solid #ffffff;
+    width: 100%;
+    overflow: hidden;
+}
+
+#footerContent {
+    font-size: 1em;
+    color: #ffffff;
+}
+.funzone{
+    display: inline-block;
+    width: 28%;
+    float:left;
+    margin: 2%;
+    min-width: 200px;
+}
+.funzone>img{
+    width: 100%;
+
+}
+#fun{
+
+
+}
+#nerdvsgeek{
+
+width: 100%;
+}
+
+
+.validator {
+
+    border: 0;
+    width: 88px;
+    height: 31px
+}
+
+.funzone-label{
+    font-size: 2em;
+    color: darkblue;
+}
+.section-padding{
+   padding: 5%;
+}

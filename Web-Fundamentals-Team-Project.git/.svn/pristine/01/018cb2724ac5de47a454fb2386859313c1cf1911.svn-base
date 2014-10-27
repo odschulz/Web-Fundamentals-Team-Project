@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+	<head>
+        <meta charset="UTF-8">
+		<link rel="stylesheet" type="text/css" href="styles.css"/>
+        <title>Home Page</title>
+	</head>
+<body>
+    <header>
+        <div id="header-wrapper">
+            <div id="logo-container"></div>
+            <div id="title-nav-container">
+                <div id="title"><h1>THE GEEK YOURSELF PLATFORM</h1></div>
+                <nav id="nav-container">
+                    <ul id="navbar">
+                        <li>MENU1</li>
+                        <li>MENU2</li>
+                        <li>MENU3</li>
+                        <li>MENU4</li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <main>
+        <aside>
+            <div><button type="button">GEEK ME!!!</button></div>
+        </aside>
+        <section>
+            <article>
+                <div id="ar1">Do you have trouble identifying yourself?</div>
+                <div id="pic1"></div>
+            </article>
+            <article>
+                <div id="ar2">Take the next step in evolution!</div>
+                <div id="pic2"></div>
+            </article>
+            <article>
+                <div id="ar3">Code your way out...</div>
+                <div id="pic3"></div>
+            </article>
+            <article>
+                <div id="ar4">...One step at a time...</div>
+                <div id="pic4"></div>
+            </article>
+            <article>
+                <div id="ar5">...And never starve again!</div>
+                <div id="pic5"></div>
+            </article>
+            <article>
+                <div id="ar6"></div>
+                <div id="pic6"></div>
+            </article>
+        </section>
+    </main>
+</body>
+</html>
