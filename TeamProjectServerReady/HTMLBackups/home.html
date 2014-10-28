@@ -3,10 +3,9 @@
 	<head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Gallery</title>
+        <title>Home</title>
 
         <link rel="stylesheet" type="text/css" href="CSS/styles.css"/>
-        <link rel="stylesheet" href="andygottSlideshow/css/slideshow.css"/>
         <link rel="shortcut icon" href="Images/Logos/icon.png" />
 
         <!-- Bootstrap -->
@@ -24,14 +23,13 @@
 
 	</head>
 <body>
-<script src='http://use.edgefonts.net/nosifer.js'></script>
+
 <div class="container">
     <div class="row">
-
         <header>
             <div id="headerContainer">
                 <div id="header">
-                    <a href="home.html">
+                    <a href="#">
                         <img src="Images/Logos/rsz_finallogo.png" alt="Logo"/>
                         <span>GEEK YOURSELF</span>
                     </a>
@@ -49,51 +47,52 @@
             </div>
         </header>
 
-<!--***************************************MAIN**************************************************-->
+<!--***************************************MAIN LEFT**************************************************-->
         <div id="mainContainer">
-            <h1 id="halloweenTitle">Halloween at SoftUni</h1>
-            <div id="slideshow" class="rs-slideshow">
-                <div class="slide-container">
-                    <img src="Images/HalloweenParty/rsz/house.png" alt="Horror House" title="Welcome to the SoftUni House of Horrors"  />
-                    <span class="slide-caption">Welcome to the SoftUni House of Horrors</span>
-                </div>
-                <ol class="slides">
-                    <li>
-                        <a class="slides" href="Images/HalloweenParty/rsz/house.png"
-                           title="Welcome to the SoftUni House of Horrors"></a>
-                    </li>
-                    <li>
-                        <a class="slides" href="Images/HalloweenParty/rsz/alexwitch.jpg"
-                           title="You will be transported to the party by airflight..."></a>
-                    </li>
-                    <li>
-                        <a class="slides" href="Images/HalloweenParty/rsz/witches.png"
-                           title="...and heartily welcomed by our lovely witches..."></a>
-                    </li>
-                    <li>
-                        <a class="slides" href="Images/HalloweenParty/rsz/dracula.png"
-                           title="...as well as by the party host. Just don't piss him off..."></a>
-                    </li>
-                    <li>
-                        <a class="slides" href="Images/HalloweenParty/rsz/angel.png"
-                           title="And remember - do not even think to cheat on our exams!!!
-                            Happy Halloween to all!!!"></a>
-                    </li>
-                </ol>
+            <div class="col-lg-1"></div>
+
+            <div id="leftSideContainer" class="col-lg-7 col-md-8">
+                <section class="sectionLeft">
+                    <h2 class="text-center">Having trouble identifying yourself?</h2>
+                    <figure>
+                        <img src="Images/gender.png" alt="Geek Gender" class="presentationImages center-block"/>
+                    </figure>
+                </section>
+                <section class="sectionLeft">
+                    <h2 class="text-center">Take the next step in evolution!</h2>
+                    <figure>
+                        <img src="Images/evo.png" alt="Geek Evolution" class="presentationImages center-block"/>
+                    </figure>
+                </section>
+                <section class="sectionLeft">
+                    <h2 class="text-center">...One small step at a time...</h2>
+                    <figure>
+                        <img src="Images/keyboard.png" alt="Geek Keyboard" class="presentationImages center-block"/>
+                    </figure>
+                </section>
+                <section class="sectionLeft">
+                    <h2 class="text-center">...And never starve again!</h2>
+                    <figure>
+                        <img src="Images/food.png" alt="Code for Food" class="presentationImages center-block"/>
+                    </figure>
+                </section>
             </div>
 
 
-            <!--<<ul class="controls clearfix">-->
-                <!--<li><a href="#" class="rs-play-pause" data-control-for="slideshow">Click to Pause</a></li>-->
-                <!--<li><a href="#" class="rs-prev" data-control-for="slideshow">Previous Slide</a></li>-->
-                <!--<li><a href="#" class="rs-next" data-control-for="slideshow">Next Slide</a></li>-->
-            <!--</ul>-->
+<!--*****************************************MAIN RIGHT************************************************-->
 
+            <div class="col-xs-3"></div>
 
+            <div id="rightSideContainer" class="col-lg-3 col-md-4 col-sm-6 col-xs-6 text-center">
+                <aside id="geekButtonSection" class="affix">
+                    <h1>Waste no time</h1>
+                    <a href="https://softuni.bg/apply" id="geekButton" target="_blank">Geek Yourself</a>
+                </aside>
+            </div>
+
+            <div class="col-lg-1 col-xs-3"></div>
 
         </div>
-
-
 <!--******************************************FOOTER**************************************************-->
 
         <footer>
@@ -138,10 +137,10 @@
 
                         <div id="disclaimer" class="col-xs-6 col-md-5 col-lg-5 text-right">
                             <p>Copyright © 2014 <br/>
-                                <em>Geek Yourself</em><br/>
-                                A student project by<br/>
-                                <em>Team Floral White</em> <br/>
-                                All rights reserved</p>
+                            <em>Geek Yourself</em><br/>
+                            A student project by<br/>
+                            <em>Team Floral White</em> <br/>
+                            All rights reserved</p>
                         </div>
                         <div class="col-md-1"></div>
                     </div>
@@ -156,14 +155,6 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 <!-- Include all compiled plugins (below), or include individual files as needed -->
 <script src="bootstrap/js/bootstrap.min.js"></script>
-<script src="andygottSlideshow/js/jquery.rs.slideshow.js"></script>
-<script src="andygottSlideshow/js/dynamic-controls-bootstrap.js"></script>
-<script src='http://use.edgefonts.net/nosifer.js'></script>
-<!--<script type="text/javascript">-->
-    <!--$(document).ready(function () {-->
-        <!--$('#slideshow-div').rsfSlideshow();-->
-    <!--});-->
-<!--</script>-->
 
 </body>
 </html>

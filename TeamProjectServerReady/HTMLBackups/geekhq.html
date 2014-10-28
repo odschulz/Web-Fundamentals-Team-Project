@@ -3,10 +3,10 @@
 	<head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Gallery</title>
+        <title>Geek HQ</title>
 
         <link rel="stylesheet" type="text/css" href="CSS/styles.css"/>
-        <link rel="stylesheet" href="andygottSlideshow/css/slideshow.css"/>
+        <link rel="stylesheet" href="CSS/geekhq.css"/>
         <link rel="shortcut icon" href="Images/Logos/icon.png" />
 
         <!-- Bootstrap -->
@@ -27,11 +27,10 @@
 <script src='http://use.edgefonts.net/nosifer.js'></script>
 <div class="container">
     <div class="row">
-
         <header>
             <div id="headerContainer">
                 <div id="header">
-                    <a href="home.html">
+                    <a href="#">
                         <img src="Images/Logos/rsz_finallogo.png" alt="Logo"/>
                         <span>GEEK YOURSELF</span>
                     </a>
@@ -51,49 +50,31 @@
 
 <!--***************************************MAIN**************************************************-->
         <div id="mainContainer">
-            <h1 id="halloweenTitle">Halloween at SoftUni</h1>
-            <div id="slideshow" class="rs-slideshow">
-                <div class="slide-container">
-                    <img src="Images/HalloweenParty/rsz/house.png" alt="Horror House" title="Welcome to the SoftUni House of Horrors"  />
-                    <span class="slide-caption">Welcome to the SoftUni House of Horrors</span>
-                </div>
-                <ol class="slides">
-                    <li>
-                        <a class="slides" href="Images/HalloweenParty/rsz/house.png"
-                           title="Welcome to the SoftUni House of Horrors"></a>
-                    </li>
-                    <li>
-                        <a class="slides" href="Images/HalloweenParty/rsz/alexwitch.jpg"
-                           title="You will be transported to the party by airflight..."></a>
-                    </li>
-                    <li>
-                        <a class="slides" href="Images/HalloweenParty/rsz/witches.png"
-                           title="...and heartily welcomed by our lovely witches..."></a>
-                    </li>
-                    <li>
-                        <a class="slides" href="Images/HalloweenParty/rsz/dracula.png"
-                           title="...as well as by the party host. Just don't piss him off..."></a>
-                    </li>
-                    <li>
-                        <a class="slides" href="Images/HalloweenParty/rsz/angel.png"
-                           title="And remember - do not even think to cheat on our exams!!!
-                            Happy Halloween to all!!!"></a>
-                    </li>
-                </ol>
+
+            <div id="mapContainer" class="col-xs-12 center-block">
+                <section id="mapSection">
+                    <h1>The Geektator and his generals</h1>
+                    <b>Click on a head</b>
+                    <img src="ImageMap/PSDictator.jpg" usemap="#Map" alt="Dictator">
+
+                    <map name="Map" id="Map">
+                        <area target="_blank" shape="rect" coords="840,80,904,176" title=" Svetlin Nakov" href="http://www.nakov.com " alt="Nakov"/>
+                        <area target="_blank" shape="rect" coords="623,165,718,267" title="Angel Georgiev" href="https://www.facebook.com/achebg" alt="Angel"/>
+                        <area target="_blank" shape="rect" coords="396,142,508,255"   title="Dean Dachev" href="https://www.facebook.com/dean.dachev.1/media_set?set=a.1728446550377.69049.1814866198&amp;type=3" alt="Dean"/>
+                        <area target="_blank" shape="rect" coords="192,173,317,279" title="Yulia Tenincheva" href="https://www.facebook.com/heruelda/photos_stream" alt="Yulia"/>
+                        <area target="_blank" shape="rect" coords="1001,113,1067,211" title="Vladimir Georgiev" href="https://www.facebook.com/VladiGeorgiev/photos" alt="Vladimir"/>
+                        <area target="_blank" shape="rect" coords="1153,99,1247,221" title="Alexandra Alexandrova" href="https://www.facebook.com/alexandra.svilarova?fref=ts" alt="Alexandra"/>
+                    </map>
+                </section>
+
+                <section id="softuni">
+                    <h1>Geek Headquarters</h1>
+                    <a href="https://softuni.bg/" target="_blank"><img class="center-block" src="Images/softuni.png" alt="SoftUni"/></a>
+                </section>
+
             </div>
 
-
-            <!--<<ul class="controls clearfix">-->
-                <!--<li><a href="#" class="rs-play-pause" data-control-for="slideshow">Click to Pause</a></li>-->
-                <!--<li><a href="#" class="rs-prev" data-control-for="slideshow">Previous Slide</a></li>-->
-                <!--<li><a href="#" class="rs-next" data-control-for="slideshow">Next Slide</a></li>-->
-            <!--</ul>-->
-
-
-
         </div>
-
-
 <!--******************************************FOOTER**************************************************-->
 
         <footer>
@@ -156,14 +137,10 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 <!-- Include all compiled plugins (below), or include individual files as needed -->
 <script src="bootstrap/js/bootstrap.min.js"></script>
-<script src="andygottSlideshow/js/jquery.rs.slideshow.js"></script>
-<script src="andygottSlideshow/js/dynamic-controls-bootstrap.js"></script>
-<script src='http://use.edgefonts.net/nosifer.js'></script>
-<!--<script type="text/javascript">-->
-    <!--$(document).ready(function () {-->
-        <!--$('#slideshow-div').rsfSlideshow();-->
-    <!--});-->
-<!--</script>-->
+<script src="ImageMap/imageMapResizer.min.js" type="text/javascript"></script>
+<script type="text/javascript">
+    $('map').imageMapResize();
+</script>
 
 </body>
 </html>
